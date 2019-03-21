@@ -9,6 +9,9 @@ import (
 	"strings"
 )
 
+// LoadFile does essentially what it says it does. It loads a file and transforms it into a
+// two dimensional array of blocks of four bytes, without whitespaces. This is needed for further
+// processing
 func LoadFile(file string) [][]byte {
 	content, err := ioutil.ReadFile(string(file))
 	if err != nil {
@@ -33,27 +36,29 @@ func LoadFile(file string) [][]byte {
 	return divided
 }
 
-func N(content uint16) bool {
-	return (content & 0x8000) != 0
-}
-
+// Flag creates a word from a boolean. This is used for certain ALU operations, as they would usually output a bool.
+// Since the CPU uses only uint16 the boolean value has to be tranfromed appropriately
 func Flag(yesno bool) uint16 {
 	if yesno {
-		return 0xFFFF
+		return 0x0001
 	} else {
 		return 0
 	}
 }
 
-func Signed(data uint16) int64 {
+// Signed transforms a uint16 into a signed integer. This is needed for the same reason as the function Flag.
+// When a signed integer is needed, this will convert a unsigned integer
+func Signed(data uint16) int16 {
 	if (data & 0x8000) == 0 {
-		return int64(data)
+		return int16(data)
 	} else {
-		return int64(0 - ((^(data) + 1) & 0xFFFF))
+		return int16(0 - ((^(data) + 1) & 0xFFFF))
 	}
 }
 
-func ByteMalformed(b uint16) uint16 {
+// WordMalformed is needed, because certain parts of go are just bollocks.
+// Go should definitly not be used in embedded systems
+func WordMalformed(b uint16) uint16 {
 	var val uint16 = b
 	if (b & 0xFFF0) == 0 {
 		val = b << 12
@@ -65,11 +70,13 @@ func ByteMalformed(b uint16) uint16 {
 	return val
 }
 
+// Word2hex takes a word and transforms it into a four character string, that will be needed for creating an image
 func Word2hex(n uint16) string {
 	s := fmt.Sprintf("%04x", n)
 	return s
 }
 
+// Hex2word takes a bytearray, which consists of ASCII values, and transforms it into a word that can be processed by the cpu
 func Hex2word(data []byte) uint16 {
 	decoded, err := hex.DecodeString(string(data))
 	if err != nil {

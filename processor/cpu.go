@@ -9,6 +9,7 @@ import (
 	"github.com/bitinvert/Many_Sim/helper"
 )
 
+// Constants and globals needed for the simulator
 const DataStackDepth uint16 = 256
 const ReturnStackDepth uint16 = 32
 const MemorySize uint16 = 0x1FFF
@@ -19,6 +20,7 @@ var Currentkey byte = 0
 var Loading bool = false
 var Sourcecode *bufio.Reader
 
+// Cpu is the heart of the project
 type Cpu struct {
 	PC     uint16
 	DStack *helper.Stack
@@ -27,6 +29,7 @@ type Cpu struct {
 	Tick   uint16
 }
 
+// LoadImage loads the image into memory
 func (c *Cpu) LoadImage(fulldata [][]byte) {
 	addr := 0
 	for i := 0; i < len(fulldata); i++ {
@@ -35,6 +38,7 @@ func (c *Cpu) LoadImage(fulldata [][]byte) {
 	}
 }
 
+// SaveImage takes the current memory and creates a memorydump, this is only needed
 func (c *Cpu) SaveImage(fname string) {
 	file, err := os.Create(fname)
 	defer file.Close()
@@ -48,6 +52,7 @@ func (c *Cpu) SaveImage(fname string) {
 	}
 }
 
+// WriteIO simulates UART an memory mapped IO
 func (c *Cpu) WriteIO(addr uint16, data uint16) {
 	if (addr & 0x1000) != 0 {
 		fmt.Println((data & 0xFF))
@@ -57,10 +62,12 @@ func (c *Cpu) WriteIO(addr uint16, data uint16) {
 	}
 }
 
+// ReadIO simulates the reading part UART. In this case it is only for fetching the source file specified at the start of the program.
+// It could be also used for fetching user input, though not implemented
 func (c *Cpu) ReadIO(addr uint16) uint16 {
 	var ortogether uint16 = 0
 	r := rand.New(rand.NewSource(0))
-	addr = helper.ByteMalformed(addr)
+	addr = helper.WordMalformed(addr)
 	if (addr & 0x1000) != 0 {
 		if Keypending == true {
 			Keypending = false
@@ -102,6 +109,7 @@ func (c *Cpu) ReadIO(addr uint16) uint16 {
 	return ortogether
 }
 
+// CpuStep is the heart of the simulator. It decides what opcodes do
 func (c *Cpu) CpuStep() {
 
 	var tosN uint16

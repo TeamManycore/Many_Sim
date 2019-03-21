@@ -9,6 +9,15 @@ import (
 	"github.com/bitinvert/Many_Sim/processor"
 )
 
+func newCPU() processor.Cpu {
+	return processor.Cpu{
+		PC:     0,
+		DStack: helper.NewStack(processor.DataStackDepth),
+		RStack: helper.NewStack(processor.ReturnStackDepth),
+		Memory: make([]uint16, processor.MemorySize, processor.MemorySize),
+		Tick:   0}
+}
+
 func main() {
 	if len(os.Args) > 1 {
 		args := os.Args[1:]
@@ -46,15 +55,10 @@ func main() {
 			}
 		}
 
+	} else {
+		fmt.Println("Many_Sim: A Simulator for the J1a")
+		fmt.Println("Usage:")
+		fmt.Println("go run main.go image                     - Interactive Mode")
+		fmt.Println("go run main.go image-in source image-out - Image generation mode")
 	}
-
-}
-
-func newCPU() processor.Cpu {
-	return processor.Cpu{
-		PC:     0,
-		DStack: helper.NewStack(processor.DataStackDepth),
-		RStack: helper.NewStack(processor.ReturnStackDepth),
-		Memory: make([]uint16, processor.MemorySize+1, processor.MemorySize+1),
-		Tick:   0}
 }
