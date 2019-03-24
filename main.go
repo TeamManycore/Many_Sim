@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+	"time"
 
 	"github.com/bitinvert/Many_Sim/helper"
 	"github.com/bitinvert/Many_Sim/processor"
@@ -42,7 +43,9 @@ func main() {
 				processor.Sourcecode = bufio.NewReader(f1)
 			}
 			for /*loading*/ i := 0; i < (600 - 44); i++ {
+				start := time.Now()
 				core.CpuStep()
+				fmt.Println(time.Since(start))
 
 			}
 

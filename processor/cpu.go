@@ -82,8 +82,7 @@ func (c *Cpu) ReadIO(addr uint16) uint16 {
 						panic(err)
 					}
 					Currentkey = value
-					fmt.Printf("%s", string([]byte{Currentkey}))
-					os.Stdout.Sync()
+					//fmt.Printf("%s", string([]byte{Currentkey}))
 
 				}
 			} else {
@@ -117,26 +116,32 @@ func (c *Cpu) CpuStep() {
 	insn := c.Memory[c.PC&uint16(MemorySize)] // High-Call = Memory Fetch, mask away the topmost address bit.
 
 	if (c.PC & 0x2000) != 0 { // Memory fetch
+		//print("Memory Fetch: ")
 		c.DStack.Push(insn)
 		c.PC = c.RStack.Pop() >> 1
 	} else {
 		if (insn & 0x8000) != 0 { // Literal
+			//	print("Literal: ")
 			c.DStack.Push(insn & 0x7FFF)
 			c.PC++
 		} else {
 			switch insn & 0xE000 {
 			case 0x0000: // Jump
+				//		print("Jump: ")
 				c.PC = insn & uint16(MemorySize)
 			case 0x2000: // Conditional Jump
+				//		print("Condtional Jump: ")
 				if c.DStack.Pop() == 0 {
 					c.PC = insn & uint16(MemorySize)
 				} else {
 					c.PC++
 				}
 			case 0x4000: // Call
+				//		print("Call: ")
 				c.RStack.Push((c.PC + 1) << 1)
 				c.PC = insn & uint16(MemorySize)
 			case 0x6000: // ALU
+				//		print("ALU operation: ")
 				rtos := c.RStack.Tos()
 				tos := c.DStack.Tos()
 				nos := c.DStack.Nos()
@@ -168,6 +173,7 @@ func (c *Cpu) CpuStep() {
 				case 0x0C00:
 					tosN = nos - tos
 				case 0x0D00:
+					//			print("ReadIO: ")
 					tosN = c.ReadIO(tos)
 				case 0x0E00:
 					tosN = c.DStack.Cap

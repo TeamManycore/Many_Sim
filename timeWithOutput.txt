@@ -1,0 +1,559 @@
+Starting CPU!
+Call: 5968
+Call: 1283
+Literal: 1020
+Literal: 2888
+Call: 1099
+Literal: 958
+Call: 1285
+ALU operation: 2997
+ALU operation: 2456
+Literal: 2311
+ALU operation: ReadIO: 17004
+ALU operation: ReadIO: 19669
+Literal: 1747
+ALU operation: 2035
+Literal: 1645
+ALU operation: 1526
+Condtional Jump: 1087
+Literal: 1905
+ALU operation: ReadIO: 16760
+ALU operation: ReadIO: 14629
+Literal: 1734
+ALU operation: 2755
+Literal: 2119
+ALU operation: 1928
+Condtional Jump: 2012
+Literal: 2282
+ALU operation: ReadIO: 17116
+ALU operation: ReadIO: 18831
+Literal: 2280
+ALU operation: 2205
+Literal: 1735
+ALU operation: 2079
+Condtional Jump: 1639
+Literal: 1044
+ALU operation: ReadIO: 14731
+ALU operation: ReadIO: 15928
+Literal: 1599
+ALU operation: 2448
+Literal: 2198
+ALU operation: 2208
+Condtional Jump: 1589
+Literal: 1705
+ALU operation: ReadIO: 16445
+ALU operation: ReadIO: 14749
+Literal: 2040
+ALU operation: 2012
+Literal: 1638
+ALU operation: 2792
+Condtional Jump: 2201
+Literal: 1946
+ALU operation: ReadIO: 14731
+ALU operation: ReadIO: 19477
+Literal: 1966
+ALU operation: 2705
+Literal: 1745
+ALU operation: 2564
+Condtional Jump: 1963
+Literal: 2193
+ALU operation: ReadIO: 14614
+ALU operation: ReadIO: 14696
+Literal: 2781
+ALU operation: 2542
+Literal: 1894
+ALU operation: 2645
+Condtional Jump: 1047
+Literal: 1956
+ALU operation: ReadIO: 18562
+ALU operation: ReadIO: 14578
+Literal: 1669
+ALU operation: 2737
+Literal: 1953
+ALU operation: 2395
+Condtional Jump: 2167
+Literal: 1067
+ALU operation: ReadIO: 16530
+ALU operation: ReadIO: 18363
+Literal: 1807
+ALU operation: 2571
+Literal: 2794
+ALU operation: 2640
+Condtional Jump: 2876
+Literal: 1928
+ALU operation: ReadIO: 16408
+ALU operation: ReadIO: 15714
+Literal: 1647
+ALU operation: 2534
+Literal: 1937
+ALU operation: 2837
+Condtional Jump: 1690
+Literal: 1942
+ALU operation: ReadIO: 18537
+ALU operation: ReadIO: 15376
+Literal: 1676
+ALU operation: 2237
+Literal: 1973
+ALU operation: 2565
+Condtional Jump: 2216
+Literal: 1739
+ALU operation: ReadIO: 14594
+ALU operation: ReadIO: 17079
+Literal: 1653
+ALU operation: 2321
+Literal: 2246
+ALU operation: 2383
+Condtional Jump: 2073
+Literal: 2335
+ALU operation: ReadIO: 16266
+ALU operation: ReadIO: 14807
+Literal: 1636
+ALU operation: 2453
+Literal: 1920
+ALU operation: 2063
+Condtional Jump: 993
+Literal: 1043
+ALU operation: ReadIO: 17272
+ALU operation: ReadIO: 14798
+Literal: 1610
+ALU operation: 2284
+Literal: 2130
+ALU operation: 2233
+Condtional Jump: 2165
+Literal: 1372
+ALU operation: ReadIO: 15816
+ALU operation: ReadIO: 17991
+Literal: 1777
+ALU operation: 2544
+Literal: 1616
+ALU operation: 2612
+Condtional Jump: 1551
+Literal: 2531
+ALU operation: ReadIO: 17316
+ALU operation: ReadIO: 15539
+Literal: 2630
+ALU operation: 2192
+Literal: 1666
+ALU operation: 2501
+Condtional Jump: 1539
+Literal: 1913
+ALU operation: ReadIO: 17327
+ALU operation: ReadIO: 22193
+Literal: 1703
+ALU operation: 2005
+Literal: 2420
+ALU operation: 1499
+Condtional Jump: 1827
+Literal: 1104
+ALU operation: ReadIO: 18771
+ALU operation: ReadIO: 17501
+Literal: 2249
+ALU operation: 2442
+Literal: 2058
+ALU operation: 2007
+Condtional Jump: 1616
+Literal: 1745
+ALU operation: ReadIO: 15479
+ALU operation: ReadIO: 15298
+Literal: 1653
+ALU operation: 2164
+Literal: 1785
+ALU operation: 2127
+Condtional Jump: 1608
+Literal: 1017
+ALU operation: ReadIO: 18708
+ALU operation: ReadIO: 16462
+Literal: 1723
+ALU operation: 2618
+Literal: 1767
+ALU operation: 2248
+Condtional Jump: 1625
+Literal: 1630
+ALU operation: ReadIO: 15289
+ALU operation: ReadIO: 18344
+Literal: 1715
+ALU operation: 2821
+Literal: 1753
+ALU operation: 2306
+Condtional Jump: 1646
+Literal: 1827
+ALU operation: ReadIO: 17254
+ALU operation: ReadIO: 14896
+Literal: 1638
+ALU operation: 2166
+Literal: 1625
+ALU operation: 2134
+Condtional Jump: 1578
+Literal: 1699
+ALU operation: ReadIO: 16842
+ALU operation: ReadIO: 14825
+Literal: 1559
+ALU operation: 2050
+Literal: 1699
+ALU operation: 1972
+Condtional Jump: 2479
+Literal: 2420
+ALU operation: ReadIO: 15964
+ALU operation: ReadIO: 17355
+Literal: 1607
+ALU operation: 2062
+Literal: 1791
+ALU operation: 2135
+Condtional Jump: 1606
+Literal: 1532
+ALU operation: ReadIO: 15892
+ALU operation: ReadIO: 14930
+Literal: 1605
+ALU operation: 1997
+Literal: 2040
+ALU operation: 2225
+Condtional Jump: 1699
+Literal: 1673
+ALU operation: ReadIO: 18678
+ALU operation: ReadIO: 15515
+Literal: 1643
+ALU operation: 2618
+Literal: 2002
+ALU operation: 2114
+Condtional Jump: 1698
+Literal: 1698
+ALU operation: ReadIO: 15395
+ALU operation: ReadIO: 16384
+Literal: 1616
+ALU operation: 2087
+Literal: 2083
+ALU operation: 2597
+Condtional Jump: 1682
+Literal: 2016
+ALU operation: ReadIO: 17907
+ALU operation: ReadIO: 15389
+Literal: 1695
+ALU operation: 2522
+Literal: 1924
+ALU operation: 2091
+Condtional Jump: 1874
+Literal: 1965
+ALU operation: ReadIO: 17711
+ALU operation: ReadIO: 14833
+Literal: 1598
+ALU operation: 2007
+Literal: 2156
+ALU operation: 2170
+Condtional Jump: 2311
+Literal: 1624
+ALU operation: ReadIO: 18605
+ALU operation: ReadIO: 16962
+Literal: 1724
+ALU operation: 2455
+Literal: 1993
+ALU operation: 2578
+Condtional Jump: 1792
+Literal: 2276
+ALU operation: ReadIO: 16219
+ALU operation: ReadIO: 15497
+Literal: 2645
+ALU operation: 2191
+Literal: 2284
+ALU operation: 2069
+Condtional Jump: 1874
+Literal: 2018
+ALU operation: ReadIO: 17675
+ALU operation: ReadIO: 15525
+Literal: 2668
+ALU operation: 2763
+Literal: 2330
+ALU operation: 2076
+Condtional Jump: 1012
+Literal: 1605
+ALU operation: ReadIO: 15416
+ALU operation: ReadIO: 17563
+Literal: 1652
+ALU operation: 2200
+Literal: 2133
+ALU operation: 2220
+Condtional Jump: 1588
+Literal: 1568
+ALU operation: ReadIO: 16898
+ALU operation: ReadIO: 15039
+Literal: 1634
+ALU operation: 2092
+Literal: 1833
+ALU operation: 2304
+Condtional Jump: 1564
+ALU operation: 2438
+Jump: 1269
+Literal: 1651
+Call: 1200
+ALU operation: 2355
+ALU operation: 2340
+Literal: 1939
+ALU operation: ReadIO: 16454
+ALU operation: ReadIO: 15542
+Literal: 3167
+ALU operation: 2037
+Literal: 2018
+ALU operation: 2302
+Condtional Jump: 1793
+Literal: 1943
+ALU operation: ReadIO: 15027
+ALU operation: ReadIO: 17094
+Literal: 1699
+ALU operation: 2682
+Literal: 1708
+ALU operation: 2332
+Condtional Jump: 2003
+Literal: 2433
+ALU operation: ReadIO: 17074
+ALU operation: ReadIO: 15443
+Literal: 2763
+ALU operation: 2403
+Literal: 2405
+ALU operation: 2170
+Condtional Jump: 2297
+Literal: 2365
+ALU operation: ReadIO: 19328
+ALU operation: ReadIO: 15764
+Literal: 1763
+ALU operation: 2715
+Literal: 1755
+ALU operation: 2480
+Condtional Jump: 1539
+Literal: 5007
+ALU operation: ReadIO: 48046
+ALU operation: ReadIO: 18783
+Literal: 3929
+ALU operation: 2580
+Literal: 1727
+ALU operation: 2530
+Condtional Jump: 1500
+Literal: 1659
+ALU operation: ReadIO: 16152
+ALU operation: ReadIO: 15424
+Literal: 2113
+ALU operation: 2068
+Literal: 2013
+ALU operation: 2828
+Condtional Jump: 2076
+Literal: 3703
+ALU operation: ReadIO: 17645
+ALU operation: ReadIO: 15863
+Literal: 1841
+ALU operation: 1965
+Literal: 1406
+ALU operation: 2808
+Condtional Jump: 1800
+Literal: 1932
+ALU operation: ReadIO: 16364
+ALU operation: ReadIO: 17463
+Literal: 2118
+ALU operation: 2532
+Literal: 3578
+ALU operation: 2496
+Condtional Jump: 1869
+Literal: 2055
+ALU operation: ReadIO: 16077
+ALU operation: ReadIO: 15832
+Literal: 1742
+ALU operation: 1904
+Literal: 2091
+ALU operation: 2045
+Condtional Jump: 1970
+Literal: 2677
+ALU operation: ReadIO: 18117
+ALU operation: ReadIO: 15502
+Literal: 2039
+ALU operation: 2493
+Literal: 3613
+ALU operation: 2454
+Condtional Jump: 2007
+Literal: 1784
+ALU operation: ReadIO: 15802
+ALU operation: ReadIO: 17505
+Literal: 1715
+ALU operation: 2622
+Literal: 1826
+ALU operation: 2657
+Condtional Jump: 2231
+Literal: 1798
+ALU operation: ReadIO: 15660
+ALU operation: ReadIO: 17597
+Literal: 1689
+ALU operation: 2153
+Literal: 2059
+ALU operation: 2403
+Condtional Jump: 1764
+Literal: 1873
+ALU operation: ReadIO: 18156
+ALU operation: ReadIO: 15318
+Literal: 4023
+ALU operation: 2201
+Literal: 1418
+ALU operation: 2152
+Condtional Jump: 1865
+Literal: 1743
+ALU operation: ReadIO: 16333
+ALU operation: ReadIO: 18383
+Literal: 2100
+ALU operation: 2134
+Literal: 3537
+ALU operation: 2123
+Condtional Jump: 1430
+Literal: 1184
+ALU operation: ReadIO: 16525
+ALU operation: ReadIO: 15659
+Literal: 1683
+ALU operation: 2260
+Literal: 1653
+ALU operation: 2500
+Condtional Jump: 1570
+Literal: 2070
+ALU operation: ReadIO: 19760
+ALU operation: ReadIO: 16219
+Literal: 1701
+ALU operation: 2641
+Literal: 2189
+ALU operation: 2107
+Condtional Jump: 1843
+Literal: 1779
+ALU operation: ReadIO: 15225
+ALU operation: ReadIO: 16501
+Literal: 3180
+ALU operation: 2185
+Literal: 1108
+ALU operation: 2327
+Condtional Jump: 1763
+Literal: 1780
+ALU operation: ReadIO: 15607
+ALU operation: ReadIO: 15043
+Literal: 1656
+ALU operation: 2323
+Literal: 2936
+ALU operation: 2057
+Condtional Jump: 1637
+ALU operation: 2087
+Call: 1724
+Literal: 1463
+Literal: 1754
+Jump: 1159
+ALU operation: 2193
+ALU operation: 2482
+Literal: 2078
+Call: 1695
+Literal: 2374
+ALU operation: 4621
+Jump: 1744
+ALU operation: 2271
+ALU operation: 2459
+Call: 2354
+Literal: 1735
+ALU operation: ReadIO: 19997
+ALU operation: ReadIO: 15581
+Literal: 2092
+ALU operation: 2187
+ALU operation: 2589
+Call: 1172
+Jump: 3025
+Call: 2481
+Call: 2194
+Literal: 2514
+Literal: 3849
+Call: 2044
+Literal: 1913
+Call: 2351
+ALU operation: 1549
+ALU operation: 2437
+Literal: 2099
+ALU operation: ReadIO: 16820
+ALU operation: ReadIO: 17436
+Literal: 1722
+ALU operation: 3593
+Literal: 1808
+ALU operation: 2489
+Condtional Jump: 1598
+Literal: 1410
+ALU operation: ReadIO: 15600
+ALU operation: ReadIO: 15731
+Literal: 1686
+ALU operation: 2495
+Literal: 2390
+ALU operation: 5824
+Condtional Jump: 1605
+Literal: 2150
+ALU operation: ReadIO: 19087
+ALU operation: ReadIO: 16089
+Literal: 2060
+ALU operation: 2195
+Literal: 2310
+ALU operation: 1514
+Condtional Jump: 2024
+ALU operation: 3668
+Jump: 1456
+Literal: 1464
+Call: 2382
+ALU operation: 3217
+ALU operation: 2774
+Literal: 2460
+ALU operation: ReadIO: 15669
+ALU operation: ReadIO: 18293
+Literal: 1784
+ALU operation: 2209
+Literal: 1711
+ALU operation: 2504
+Condtional Jump: 1579
+Literal: 3985
+ALU operation: ReadIO: 15807
+ALU operation: ReadIO: 15428
+Literal: 2094
+ALU operation: 2119
+Literal: 2097
+ALU operation: 1590
+Condtional Jump: 1738
+Literal: 1773
+ALU operation: ReadIO: 19173
+ALU operation: ReadIO: 15625
+Literal: 2205
+ALU operation: 2163
+Literal: 2074
+ALU operation: 1504
+Condtional Jump: 1620
+Literal: 2360
+ALU operation: ReadIO: 15974
+ALU operation: ReadIO: 18633
+Literal: 2099
+ALU operation: 2564
+Literal: 1820
+ALU operation: 2191
+Condtional Jump: 1897
+ALU operation: 2227
+Call: 1939
+Literal: 1480
+Literal: 1207
+Jump: 1720
+ALU operation: 2203
+ALU operation: 2533
+Literal: 1575
+Call: 1699
+Literal: 1490
+ALU operation: 2224
+Jump: 2057
+ALU operation: 2224
+ALU operation: 4377
+Call: 1822
+Literal: 2165
+ALU operation: ReadIO: 15882
+ALU operation: ReadIO: 15552
+Literal: 1505
+ALU operation: 2519
+ALU operation: 1502
+Call: 1718
+Jump: 2472
+Call: 2279
+Call: 2167
+Literal: 1953
+Literal: 1551
+Call: 2086
+Literal: 881
+Call: 2534
+ALU operation: 2437
+
+Dumping memory image!
